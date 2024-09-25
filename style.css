@@ -1,0 +1,60 @@
+.Calculator {
+    background-color: black;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkgrey;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.Display {
+    width: 95%;
+    padding: 10px;
+    font-size: 2em;
+    text-align: right;
+    margin-bottom: 1px;
+    border: darkgrey;
+    border-bottom: 2px solid;
+    background-color: grey;
+    border-radius: 12px;
+}
+.equal {
+    background-color: orange;
+}
+
+.Button {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    padding: 20px;
+    font-size: 1em;
+    background-color: darkgrey;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.mult {
+    background-color: orange;
+}
+.divi {
+    background-color: orange;
+}
+.minus {
+    background-color: orange;
+}
+.plus {
+    background-color: orange;
+}
+.zero {
+    grid-column: span 2;
+}
